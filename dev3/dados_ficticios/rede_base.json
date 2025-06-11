@@ -1,0 +1,22 @@
+{
+  "fontes": ["CD Aeroporto/Tabuleiro"],
+  "sumidouros": ["Zona Ponta Verde", "Zona Centro", "Zona Serraria"],
+  "vertices": [
+    {"id": "deposito_1", "tipo": "deposito", "lat": -9.5105, "lon": -35.7910, "nome": "CD Aeroporto/Tabuleiro"},
+    {"id": "hub_1", "tipo": "hub", "lat": -9.6480, "lon": -35.7055, "nome": "Hub Jatiúca"},
+    {"id": "hub_2", "tipo": "hub", "lat": -9.6510, "lon": -35.7410, "nome": "Hub Farol"},
+    {"id": "hub_3", "tipo": "hub", "lat": -9.5650, "lon": -35.7350, "nome": "Hub Benedito Bentes"},
+    {"id": "zona_1", "tipo": "zona", "lat": -9.6670, "lon": -35.7030, "nome": "Zona Ponta Verde"},
+    {"id": "zona_2", "tipo": "zona", "lat": -9.6655, "lon": -35.7352, "nome": "Zona Centro"},
+    {"id": "zona_3", "tipo": "zona", "lat": -9.5920, "lon": -35.7250, "nome": "Zona Serraria"}
+  ],
+  "rotas": [
+    {"origem": "CD Aeroporto/Tabuleiro", "destino": "Hub Farol", "capacidade": 500},
+    {"origem": "CD Aeroporto/Tabuleiro", "destino": "Hub Benedito Bentes", "capacidade": 400},
+    {"origem": "Hub Farol", "destino": "Hub Jatiúca", "capacidade": 300},
+    {"origem": "Hub Farol", "destino": "Zona Centro", "capacidade": 250},
+    {"origem": "Hub Farol", "destino": "Zona Serraria", "capacidade": 100},
+    {"origem": "Hub Jatiúca", "destino": "Zona Ponta Verde", "capacidade": 280},
+    {"origem": "Hub Benedito Bentes", "destino": "Zona Serraria", "capacidade": 350}
+  ]
+}
