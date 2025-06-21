@@ -1,4 +1,4 @@
-from modelo_rede import RedeLogistica
+from src.core.modelo_rede import RedeLogistica
 import os
 import json 
 
@@ -12,7 +12,6 @@ def main():
     try:
         minha_rede = RedeLogistica.carregar_de_json(caminho_json)
     except (FileNotFoundError, ValueError, KeyError) as e:
-        print(f"Falha ao carregar a rede: {e}")
         return
 
     

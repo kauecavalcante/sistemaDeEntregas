@@ -1,0 +1,18 @@
+# Arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambiente Virtual
+venv/
+
+# Arquivos Gerados
+outputs/
+mapa_*.html
+Relatorio_*.pdf
+
+# Arquivos de Sistema Operacional/IDE
+.DS_Store
+.vscode/
+.idea/
