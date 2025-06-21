@@ -12,6 +12,7 @@ def main():
     try:
         minha_rede = RedeLogistica.carregar_de_json(caminho_json)
     except (FileNotFoundError, ValueError, KeyError) as e:
+        print(f"Falha ao carregar a rede: {e}")
         return
 
     
